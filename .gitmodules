@@ -1,0 +1,3 @@
+[submodule ".vim/bundle/double-tap"]
+	path = .vim/bundle/double-tap
+	url = https://github.com/Osse/double-tap.git
