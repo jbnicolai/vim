@@ -7,3 +7,6 @@
 [submodule ".vim/bundle/mw_utils"]
 	path = .vim/bundle/mw_utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule ".vim/bundle/neocomplcache"]
+	path = .vim/bundle/neocomplcache
+	url = https://github.com/Shougo/neocomplcache.vim.git
