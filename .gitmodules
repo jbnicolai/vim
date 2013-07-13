@@ -1,6 +1,7 @@
 [submodule ".vim/bundle/double-tap"]
 	path = .vim/bundle/double-tap
 	url = https://github.com/Osse/double-tap.git
+    ignore = dirty
 [submodule ".vim/bundle/fugitive"]
 	path = .vim/bundle/fugitive
 	url = https://github.com/tpope/vim-fugitive
