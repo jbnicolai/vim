@@ -178,6 +178,10 @@ nnoremap <right> <C-w>l
 "toggle search highlight
 nnoremap <silent><Leader>/ :nohls<cr>
 
+"control-p plugin
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
 """"""""""""""""""""""""""
 " cmldline-window mappings
 """"""""""""""""""""""""""
