@@ -32,3 +32,6 @@
 [submodule ".vim/bundle/vimoutliner"]
 	path = .vim/bundle/vimoutliner
 	url = https://github.com/vimoutliner/vimoutliner.git
+[submodule ".vim/bundle/gundo"]
+	path = .vim/bundle/gundo
+	url = http://github.com/sjl/gundo.vim.git

@@ -155,6 +155,9 @@ map Y y$
 "fix indentation
 noremap <F1> mzgg=G`zzz
 
+"graphical undo
+nnoremap <F2> :GundoToggle<CR>
+
 "make j and k work on wrapped lines
 nnoremap <silent> j gj
 nnoremap <silent> k gk
