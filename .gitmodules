@@ -41,3 +41,6 @@
 [submodule ".vim/bundle/signify"]
 	path = .vim/bundle/signify
 	url = https://github.com/mhinz/vim-signify.git
+[submodule ".vim/bundle/sensible"]
+	path = .vim/bundle/sensible
+	url = https://github.com/tpope/vim-sensible.git
