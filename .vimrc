@@ -172,6 +172,11 @@ let g:Powerline_symbols = 'fancy'
 
 nnoremap <F2> :GundoToggle<CR>
 
+"**********
+"EasyMotion
+"**********
+
+let g:EasyMotion_leader_key = '<Leader>'
 
 "*************
 "NeoComplCache
