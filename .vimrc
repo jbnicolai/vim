@@ -52,25 +52,16 @@ colorscheme inkpot          "because it's pretteh
 
 set nocompatible            "screw vi
 
-filetype on                 "use filetype detection
-syntax on                   "use syntax highlighting
-
-filetype plugin indent on   "tab completion
-
 "display a warning if fileformat isnt unix
 set statusline+=%#warningmsg#
 set statusline+=%{&ff!='unix'?'['.&ff.']':''}
 set statusline+=%*
 
-set laststatus=2            "always show the statusline
 set encoding=utf-8
 let g:Powerline_symbols = 'fancy'
 
-set wildmenu                "commmand line completion
 set wildmode=list:longest,full
 set omnifunc=syntaxcomplete#Complete
-
-set showcmd                 "show the command being typed
 
 set nofoldenable            "unfold
 
@@ -79,9 +70,7 @@ set foldlevel=1             "start at 1
 set foldmethod=indent       "fold on indentation
 
 set smartindent             "smart indenting for c-like languages
-set autoindent              "auto indentation matching on newlines
 set expandtab               "use spaces instead of tab characters
-set smarttab                "auto switch between soft tabstop and normal
 set shiftwidth=4            "number of spaces used for indentation
 set tabstop=4               "number of spaces the tab character uses
 set softtabstop=4           "number of spaces the tab character looks like
@@ -91,38 +80,28 @@ if version > 700
     set nospell             "but turn it off by default
 endif
 
-set ruler                   "show position in the file in the statusline
-
 set mouse=a                 "enable the mouse
 set mousehide               "hide the pointer when typing
 
 set ignorecase              "ignore casing in search patterns
 set smartcase               "unless you specify casing
 set hlsearch                "highlight search results
-set incsearch               "highlight matches while searching
 nohls                       "but turn of hl from previous run
 
 set hidden                  "allow buffer switching without saves
 
 highlight MatchParent ctermbg=4
 
-set scrolloff=700           "start scrolling when less than 7 lines are left
-
 set magic                   "it's a kinda
-
-set showmatch               "briefly jump to matching bracket
 
 set wrap                    "wrap lines
 set linebreak               "instert linebreaks when wrapping
 
 set cursorline              "highlight the current line
 
-set backspace=indent,eol,start
-
 set shell=bash
 
 set nolist                    "show special characters
-set listchars=tab:>·,trail:·,extends:…,precedes:…,nbsp:&
 
 "set haskell unicode
 let g:haskell_conceal_wide = 1
