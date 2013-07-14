@@ -35,3 +35,6 @@
 [submodule ".vim/bundle/gundo"]
 	path = .vim/bundle/gundo
 	url = http://github.com/sjl/gundo.vim.git
+[submodule ".vim/bundle/startify"]
+	path = .vim/bundle/startify
+	url = https://github.com/mhinz/vim-startify
