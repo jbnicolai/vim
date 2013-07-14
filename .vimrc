@@ -1,27 +1,3 @@
-"*******
-"Bundles
-"*******
-
-call pathogen#infect()                      "enable pathogen
-let g:neocomplcache_enable_at_startup = 1   "enable neocomplcache
-Helptags                                    "merge in pathogens helptags
-
-
-"*********
-"Syntastic
-"*********
-
-"disable for java
-let g:syntastic_mode_map = { 'mode': 'active',
-            \ 'active_filetypes': ['ruby', 'python', 'js'],
-            \ 'passive_filetypes': ['java'] }
-
-"*****
-"CtrlP
-"*****
-
-let g:ctrlp_show_hidden = 1
-
 "************
 "Autocommands
 "************
@@ -44,21 +20,19 @@ au BufWritePost .vimrc so ~/.vimrc
 "wrap text at 80
 au BufRead *.txt set textwidth=80
 
-"vim-hdevtool bindings
-au FileType haskell nnoremap <buffer> _t :HdevtoolsType<CR>
-au FileType haskell nnoremap <buffer> <silent> _T :HdevtoolsClear<CR>
-
 au BufRead *.page set ft=markdown
 
 "********
 "Settings
 "********
-set directory=/tmp          "don't clutter with .swp's
+
+colorscheme inkpot
+
+set nocompatible
+
+"don't clutter with .swp's
+set directory=/tmp
 set backupdir=/tmp
-
-colorscheme inkpot          "because it's pretteh
-
-set nocompatible            "screw vi
 
 "display a warning if fileformat isnt unix
 set statusline+=%#warningmsg#
@@ -66,13 +40,11 @@ set statusline+=%{&ff!='unix'?'['.&ff.']':''}
 set statusline+=%*
 
 set encoding=utf-8
-let g:Powerline_symbols = 'fancy'
 
 set wildmode=list:longest,full
 set omnifunc=syntaxcomplete#Complete
 
 set nofoldenable            "unfold
-
 set foldnestmax=5           "don't fold too far
 set foldlevel=1             "start at 1
 set foldmethod=indent       "fold on indentation
@@ -111,9 +83,6 @@ set shell=bash
 
 set nolist                    "show special characters
 
-"set haskell unicode
-let g:haskell_conceal_wide = 1
-
 set foldcolumn=2
 
 "********
@@ -142,9 +111,6 @@ map Y y$
 "fix indentation
 noremap <F1> mzgg=G`zzz
 
-"graphical undo
-nnoremap <F2> :GundoToggle<CR>
-
 "make j and k work on wrapped lines
 nnoremap <silent> j gj
 nnoremap <silent> k gk
@@ -168,63 +134,67 @@ nnoremap <right> <C-w>l
 "toggle search highlight
 nnoremap <silent><Leader>/ :nohls<cr>
 
-"control-p plugin
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
-
-""""""""""""""""""""""""""
-" cmldline-window mappings
-""""""""""""""""""""""""""
-" Swap default ':', '/' and '?' with cmdline-window equivalent.
-"nnoremap : q:i
-"xnoremap : q:i
-"nnoremap / q/i
-"xnoremap / q/i
-"nnoremap ? q?i
-"xnoremap ? q?i
-"nnoremap q: :
-"xnoremap q: :
-"nnoremap q/ /
-"xnoremap q/ /
-"nnoremap q? ?
-"xnoremap q? ?
 " Have <esc> leave cmdline-window
 autocmd CmdwinEnter * nnoremap <buffer> <esc> :q<cr>
 
-""""""""""""""""""""""""""""""
-" => neocomplcache plugin
-""""""""""""""""""""""""""""""
-" TODO: Still need to tweak behavior with <TAB> to expand
-"       snippets, change throughout the autocompletion list
+"*******
+"Bundles
+"*******
 
-" Use neocomplcache.
+call pathogen#infect()                      "enable pathogen
+Helptags                                    "merge in pathogens helptags
+
+"*********
+"Syntastic
+"*********
+
+let g:syntastic_mode_map = { 'mode': 'active',
+            \ 'active_filetypes': ['ruby', 'python', 'js'],
+            \ 'passive_filetypes': ['java'] }
+
+"*****
+"CtrlP
+"*****
+
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_show_hidden = 1
+
+"*********
+"PowerLine
+"*********
+
+let g:Powerline_symbols = 'fancy'
+
+"*****
+"Gundo
+"*****
+
+nnoremap <F2> :GundoToggle<CR>
+
+
+"*************
+"NeoComplCache
+"*************
+
 let g:neocomplcache_enable_at_startup = 1
-" Use smartcase.
 let g:neocomplcache_enable_smart_case = 1
-" Use camel case completion.
 let g:neocomplcache_enable_camel_case_completion = 1
-" Use underbar completion.
 let g:neocomplcache_enable_underbar_completion = 1
-" Set minimum syntax keyword length.
 let g:neocomplcache_min_syntax_length = 1
 let g:neocomplcache_lock_buffer_name_pattern = '\*ku\*'
 let g:neocomplcache_snippets_dir = '~/.vim/snippet/'
-" Define dictionary.
 let g:neocomplcache_dictionary_filetype_lists = {
             \ 'default' : '',
             \ 'vimshell' : $HOME.'/.vimshell_hist',
             \ 'scheme' : $HOME.'/.gosh_completions'
             \ }
 
-" Define keyword.
 if !exists('g:neocomplcache_keyword_patterns')
     let g:neocomplcache_keyword_patterns = {}
 endif
 let g:neocomplcache_keyword_patterns['default'] = '\h\w*'
 
-" Plugin key-mappings.
-imap <C-k>     <Plug>(neocomplcache_snippets_expand)
-smap <C-k>     <Plug>(neocomplcache_snippets_expand)
 inoremap <expr><C-g>     neocomplcache#undo_completion()
 inoremap <expr><C-l>     neocomplcache#complete_common_string()
 
@@ -241,16 +211,6 @@ inoremap <expr><C-h> neocomplcache#smart_close_popup()."\<C-h>"
 inoremap <expr><BS> neocomplcache#smart_close_popup()."\<C-h>"
 inoremap <expr><C-y>  neocomplcache#close_popup()
 inoremap <expr><C-e>  neocomplcache#cancel_popup()
-
-" AutoComplPop like behavior.
-"let g:neocomplcache_enable_auto_select = 1
-
-" Shell like behavior(not recommended).
-"set completeopt+=longest
-"let g:neocomplcache_enable_auto_select = 1
-"let g:neocomplcache_disable_auto_complete = 1
-"inoremap <expr><TAB>  pumvisible() ? "\<Down>" : "\<TAB>"
-"inoremap <expr><CR>  neocomplcache#smart_close_popup() . "\<CR>"
 
 " Enable omni completion.
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
