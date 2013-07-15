@@ -20,6 +20,7 @@ au BufWritePost .vimrc so ~/.vimrc
 "wrap text at 80
 au BufRead *.txt set textwidth=80
 
+"blog .page files are always in markdown
 au BufRead *.page set ft=markdown
 
 "********
