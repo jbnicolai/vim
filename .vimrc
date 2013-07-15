@@ -97,6 +97,9 @@ nmap <leader>l :set invnu<cr>
 "toggle between last alternate buffer
 nnoremap <Leader><Leader> <C-^>
 
+"Force Saving Files that Require Root Permission
+cmap w!! %!sudo tee > /dev/null %
+
 "under- or overline the current line
 nnoremap <leader>== yyPv$r=jyypv$r=
 nnoremap <leader>** yyPv$r*jyypv$r*
