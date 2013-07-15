@@ -72,6 +72,11 @@ if exists("+undofile")      "enable session persistent undo file
     set undodir=~/.vimundo
 endif
 
+" Default yank and paste go to Mac's clipboard
+if version >= 730 && has("macunix")
+    set clipboard=unnamed
+end
+
 set mouse=a                 "enable the mouse
 set mousehide               "hide the pointer when typing
 
