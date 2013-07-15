@@ -56,3 +56,4 @@
 [submodule ".vim/bundle/bufexplorer"]
 	path = .vim/bundle/bufexplorer
 	url = https://github.com/corntrace/bufexplorer.git
+    ignore = dirty
