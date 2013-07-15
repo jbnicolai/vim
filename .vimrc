@@ -94,6 +94,11 @@ let mapleader = ","
 "toggle line numbers
 nmap <leader>l :set invnu<cr>
 
+"exit input mode
+inoremap jk <Esc>
+inoremap kj <Esc>
+inoremap ii <Esc>
+
 "toggle between last alternate buffer
 nnoremap <Leader><Leader> <C-^>
 
