@@ -178,6 +178,12 @@ nnoremap <F2> :GundoToggle<CR>
 
 let g:EasyMotion_leader_key = '<Leader>'
 
+"********
+"NERDTree
+"********
+
+let NERDTreeShowHidden=1
+
 "*************
 "NeoComplCache
 "*************
