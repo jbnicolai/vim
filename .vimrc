@@ -105,6 +105,13 @@ nnoremap <Leader><Leader> <C-^>
 "Force Saving Files that Require Root Permission
 cmap w!! %!sudo tee > /dev/null %
 
+
+"Emacs keys to vim cli, blasphemy?
+cnoremap <C-j> <t_kd>
+cnoremap <C-k> <t_ku>
+cnoremap <C-a> <Home>
+cnoremap <C-e> <End>
+
 "under- or overline the current line
 nnoremap <leader>== yyPv$r=jyypv$r=
 nnoremap <leader>** yyPv$r*jyypv$r*
