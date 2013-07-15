@@ -64,6 +64,11 @@ if version > 700
     set nospell             "but turn it off by default
 endif
 
+if exists("+undofile")      "enable session persistent undo file
+    set udf
+    set undodir=~/.vimundo
+endif
+
 set mouse=a                 "enable the mouse
 set mousehide               "hide the pointer when typing
 
