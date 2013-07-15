@@ -26,6 +26,9 @@ au BufRead *.page set ft=markdown
 "exit pastemode on insertleave
 au InsertLeave * set nopaste
 
+"spellcheck git commit messages.
+autocmd BufRead COMMIT_EDITMSG setlocal spell!
+
 "********
 "Settings
 "********
