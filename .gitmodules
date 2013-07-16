@@ -38,9 +38,6 @@
 [submodule ".vim/bundle/startify"]
 	path = .vim/bundle/startify
 	url = https://github.com/mhinz/vim-startify
-[submodule ".vim/bundle/signify"]
-	path = .vim/bundle/signify
-	url = https://github.com/mhinz/vim-signify.git
 [submodule ".vim/bundle/sensible"]
 	path = .vim/bundle/sensible
 	url = https://github.com/tpope/vim-sensible.git
@@ -63,3 +60,6 @@
 [submodule ".vim/bundle/webapi"]
 	path = .vim/bundle/webapi
 	url = https://github.com/mattn/webapi-vim.git
+[submodule ".vim/bundle/gitgutter"]
+	path = .vim/bundle/gitgutter
+	url = git://github.com/airblade/vim-gitgutter.git
