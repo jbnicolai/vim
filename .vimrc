@@ -122,7 +122,6 @@ nnoremap <Leader><Leader> <C-^>
 "Force Saving Files that Require Root Permission
 cmap w!! %!sudo tee > /dev/null %
 
-
 "Emacs keys to vim cli, blasphemy?
 cnoremap <C-j> <t_kd>
 cnoremap <C-k> <t_ku>
@@ -151,7 +150,7 @@ nnoremap <silent> k gk
 nnoremap <space> za
 
 "set enter to write
-nmap <CR> :write<CR>
+nmap <silent> <CR> :NERDTreeToggle<CR>
 
 "easier split window navigation
 noremap <C-h> <C-w>h
