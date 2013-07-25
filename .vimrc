@@ -180,7 +180,7 @@ Helptags                                    "merge in pathogens helptags
 "*********
 
 let g:syntastic_mode_map = { 'mode': 'active',
-            \ 'active_filetypes': ['ruby', 'python', 'js'],
+            \ 'active_filetypes': ['ruby', 'python', 'js', 'javascript'],
             \ 'passive_filetypes': ['java'] }
 
 "*****
