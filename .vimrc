@@ -22,6 +22,8 @@ au BufRead *.txt set textwidth=80
 
 "blog .page files are always in markdown
 au BufRead *.page set ft=markdown
+au BufRead *.md set ft=markdown
+
 
 "exit pastemode on insertleave
 au InsertLeave * set nopaste
