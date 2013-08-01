@@ -60,9 +60,9 @@ set foldmethod=indent       "fold on indentation
 
 set smartindent             "smart indenting for c-like languages
 set expandtab               "use spaces instead of tab characters
-set shiftwidth=4            "number of spaces used for indentation
-set tabstop=4               "number of spaces the tab character uses
-set softtabstop=4           "number of spaces the tab character looks like
+set shiftwidth=2            "number of spaces used for indentation
+set tabstop=2               "number of spaces the tab character uses
+set softtabstop=2           "number of spaces the tab character looks like
 
 if version > 700
     set spl=en spell        "set spell to english
