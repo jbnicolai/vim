@@ -69,3 +69,7 @@
 [submodule ".vim/bundle/coffeescript"]
 	path = .vim/bundle/coffeescript
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule ".vim/bundle/vim-fitnesse"]
+	path = .vim/bundle/vim-fitnesse
+	url = https://github.com/jbnicolai/vim-fittnesse.git
+	branch = master
