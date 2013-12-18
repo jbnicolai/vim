@@ -24,6 +24,8 @@ au BufRead *.txt set textwidth=80
 au BufRead *.page set ft=markdown
 au BufRead *.md set ft=markdown
 
+"fitnesse files are names content.txt
+au BufRead content.txt set ft=fitnesse
 
 "exit pastemode on insertleave
 au InsertLeave * set nopaste
