@@ -73,3 +73,6 @@
   path = .vim/bundle/vim-fitnesse
   url = https://github.com/jbnicolai/vim-fittnesse.git
   branch = master
+[submodule ".vim/bundle/speeddating"]
+	path = .vim/bundle/speeddating
+	url = https://github.com/tpope/vim-speeddating.git
