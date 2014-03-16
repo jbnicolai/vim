@@ -127,6 +127,9 @@ nnoremap <Leader><Leader> <C-^>
 "Force Saving Files that Require Root Permission
 cmap w!! %!sudo tee > /dev/null %
 
+"Open the current file in chrome
+nnoremap <leader>o :!open -a 'google chrome' % <cr>
+
 "Emacs keys to vim cli, blasphemy?
 cnoremap <C-j> <t_kd>
 cnoremap <C-k> <t_ku>
