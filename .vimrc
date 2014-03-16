@@ -37,6 +37,12 @@ autocmd BufRead COMMIT_EDITMSG setlocal spell!
 "Settings
 "********
 
+if has("gui_macvim")
+  set lines=40
+  set columns=82
+  set guifont=Menlo\ Regular:h16
+endif
+
 colorscheme inkpot
 
 set nocompatible
