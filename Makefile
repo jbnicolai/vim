@@ -2,13 +2,10 @@ PWD = `pwd`
 FILES = ".vimrc"
 DIRS = ".vim"
 
-all: init update linkfiles linkdirs
+all: submodule linkfiles linkdirs
 
-init:
-	git submodule init
-
-update:
-	git submodule update
+submodule:
+	git submodule update --init --recursive
 
 linkfiles:
 	for file in $(FILES); do \
