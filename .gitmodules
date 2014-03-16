@@ -76,3 +76,6 @@
 [submodule ".vim/bundle/speeddating"]
 	path = .vim/bundle/speeddating
 	url = https://github.com/tpope/vim-speeddating.git
+[submodule ".vim/bundle/vim-json"]
+	path = .vim/bundle/vim-json
+	url = https://github.com/elzr/vim-json.git
