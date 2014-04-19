@@ -211,6 +211,13 @@ let g:Powerline_symbols = 'fancy'
 
 nnoremap <F2> :GundoToggle<CR>
 
+"****************
+"Rainbowparenthes
+"****************
+
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+
 "**********
 "EasyMotion
 "**********
