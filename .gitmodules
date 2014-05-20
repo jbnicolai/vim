@@ -85,3 +85,6 @@
 [submodule ".vim/bundle/matchit"]
 	path = .vim/bundle/matchit
 	url = https://github.com/edsono/vim-matchit
+[submodule ".vim/bundle/less"]
+	path = .vim/bundle/less
+	url = https://github.com/groenewege/vim-less.git
