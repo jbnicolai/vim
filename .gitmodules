@@ -91,3 +91,6 @@
 [submodule ".vim/bundle/ruby"]
 	path = .vim/bundle/ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule ".vim/bundle/j"]
+	path = .vim/bundle/j
+	url = https://github.com/jbnicolai/vim-j.git
