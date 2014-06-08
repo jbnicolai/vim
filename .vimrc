@@ -180,7 +180,7 @@ autocmd CmdwinEnter * nnoremap <buffer> <esc> :q<cr>
 "Bundles
 "*******
 
-call pathogen#infect()                      "enable pathogen
+execute pathogen#infect()
 Helptags                                    "merge in pathogens helptags
 
 "*********
