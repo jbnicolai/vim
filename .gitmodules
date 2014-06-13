@@ -97,3 +97,6 @@
 [submodule ".vim/bundle/go"]
 	path = .vim/bundle/go
 	url = https://github.com/jbnicolai/vim-go.git
+[submodule ".vim/bundle/syntastic-more"]
+	path = .vim/bundle/syntastic-more
+	url = https://github.com/roktas/syntastic-more.git
