@@ -100,3 +100,6 @@
 [submodule ".vim/bundle/syntastic-more"]
 	path = .vim/bundle/syntastic-more
 	url = https://github.com/roktas/syntastic-more.git
+[submodule ".vim/bundle/node"]
+	path = .vim/bundle/node
+	url = https://github.com/mmalecki/vim-node.js.git
