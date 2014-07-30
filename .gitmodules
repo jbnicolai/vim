@@ -20,9 +20,6 @@
 [submodule ".vim/bundle/syntastic"]
   path = .vim/bundle/syntastic
   url = https://github.com/scrooloose/syntastic.git
-[submodule ".vim/bundle/powerline"]
-  path = .vim/bundle/powerline
-  url = https://github.com/jbnicolai/vim-powerline.git
 [submodule ".vim/bundle/ctrlp"]
   path = .vim/bundle/ctrlp
   url = https://github.com/kien/ctrlp.vim.git
@@ -103,3 +100,6 @@
 [submodule ".vim/bundle/node"]
 	path = .vim/bundle/node
 	url = https://github.com/mmalecki/vim-node.js.git
+[submodule ".vim/bundle/airline"]
+	path = .vim/bundle/airline
+	url = git@github.com:bling/vim-airline.git
