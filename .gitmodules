@@ -115,3 +115,6 @@
 [submodule ".vim/bundle/javascript"]
 	path = .vim/bundle/javascript
 	url = git@github.com:jelera/vim-javascript-syntax.git
+[submodule ".vim/bundle/snipmate"]
+	path = .vim/bundle/snipmate
+	url = git@github.com:garbas/vim-snipmate.git
