@@ -106,3 +106,6 @@
 [submodule ".vim/bundle/editorconfig"]
 	path = .vim/bundle/editorconfig
 	url = https://github.com/editorconfig/editorconfig-vim
+[submodule ".vim/bundle/vim-node"]
+	path = .vim/bundle/vim-node
+	url = git@github.com:moll/vim-node.git
