@@ -236,6 +236,7 @@ if !exists("g:pathogen_disabled") || index(g:pathogen_disabled, 'neocomplcache')
   let g:neocomplcache_min_syntax_length = 1
   let g:neocomplcache_lock_buffer_name_pattern = '\*ku\*'
   let g:neocomplcache_snippets_dir = '~/.vim/snippet/'
+  let g:neosnippet#enable_snipmate_compatibility = 1
   let g:neocomplcache_dictionary_filetype_lists = {
               \ 'default' : '',
               \ 'vimshell' : $HOME.'/.vimshell_hist',
@@ -279,3 +280,10 @@ if !exists("g:pathogen_disabled") || index(g:pathogen_disabled, 'neocomplcache')
   "autocmd FileType ruby setlocal omnifunc=rubycomplete#Complete
   let g:neocomplcache_omni_patterns.php = '[^. \t]->\h\w*\|\h\w*::'
 endif
+
+"********
+"SnipMate
+"********
+
+imap <S-TAB> <Plug>snipMateNextOrTrigger
+smap <S-TAB> <Plug>snipMateNextOrTrigger

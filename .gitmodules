@@ -121,3 +121,6 @@
 [submodule ".vim/bundle/snipmate-nodejs"]
 	path = .vim/bundle/snipmate-nodejs
 	url = git@github.com:jamescarr/snipmate-nodejs.git
+[submodule ".vim/bundle/tlib"]
+	path = .vim/bundle/tlib
+	url = git@github.com:tomtom/tlib_vim.git
