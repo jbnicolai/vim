@@ -191,6 +191,8 @@ let g:syntastic_mode_map = { 'mode': 'active',
             \ 'active_filetypes': ['ruby', 'python', 'js', 'javascript'],
             \ 'passive_filetypes': ['java, html'] }
 
+let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute " ,"trimming empty <", "unescaped &" , "lacks \"action", "is not recognized!", "discarding unexpected"]
+
 "*****
 "CtrlP
 "*****
