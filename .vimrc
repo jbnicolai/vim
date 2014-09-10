@@ -207,6 +207,13 @@ let g:ctrlp_show_hidden = 1
 
 nnoremap <F2> :GundoToggle<CR>
 
+"****
+"Gist
+"****
+
+let g:gist_open_browser_after_post = 1
+let g:gist_browser_command = 'chrome %URL%'
+
 "****************
 "Rainbowparenthes
 "****************
