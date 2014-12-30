@@ -90,7 +90,7 @@
 	url = https://github.com/vim-ruby/vim-ruby.git
 [submodule ".vim/bundle/j"]
 	path = .vim/bundle/j
-	url = https://github.com/jbnicolai/vim-j.git
+	url = https://github.com/guersam/vim-j.git
 [submodule ".vim/bundle/go"]
 	path = .vim/bundle/go
 	url = https://github.com/jbnicolai/vim-go.git
