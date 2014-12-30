@@ -68,7 +68,7 @@
   url = https://github.com/kchmck/vim-coffee-script.git
 [submodule ".vim/bundle/vim-fitnesse"]
   path = .vim/bundle/vim-fitnesse
-  url = https://github.com/jbnicolai/vim-fittnesse.git
+  url = https://github.com/jbnicolai/vim-fitnesse.git
   branch = master
 [submodule ".vim/bundle/speeddating"]
 	path = .vim/bundle/speeddating
