@@ -278,7 +278,6 @@ if !exists("g:pathogen_disabled") || index(g:pathogen_disabled, 'neocomplcache')
   " <C-h>, <BS>: close popup and delete backword char.
   inoremap <expr><C-h> neocomplcache#smart_close_popup()."\<C-h>"
   inoremap <expr><BS> neocomplcache#smart_close_popup()."\<C-h>"
-  inoremap <expr><C-y>  neocomplcache#close_popup()
   inoremap <expr><C-e>  neocomplcache#cancel_popup()
 
   " Enable omni completion.
@@ -303,3 +302,10 @@ endif
 
 imap <S-TAB> <Plug>snipMateNextOrTrigger
 smap <S-TAB> <Plug>snipMateNextOrTrigger
+
+"*****
+"Emmet
+"*****
+
+let g:user_emmet_leader_key='<C-y>'
+let g:user_emmet_mode='a'    "enable all function in all mode.

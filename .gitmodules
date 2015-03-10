@@ -139,3 +139,6 @@
 [submodule ".vim/bundle/image"]
 	path = .vim/bundle/image
 	url = https://github.com/ashisha/image.vim.git
+[submodule ".vim/bundle/emmet"]
+	path = .vim/bundle/emmet
+	url = https://github.com/mattn/emmet-vim.git
