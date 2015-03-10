@@ -130,3 +130,6 @@
 [submodule ".vim/bundle/elixir"]
 	path = .vim/bundle/elixir
 	url = https://github.com/elixir-lang/vim-elixir
+[submodule ".vim/bundle/vim-diff-enhanced"]
+	path = .vim/bundle/vim-diff-enhanced
+	url = https://github.com/chrisbra/vim-diff-enhanced.git
