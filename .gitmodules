@@ -133,3 +133,6 @@
 [submodule ".vim/bundle/vim-diff-enhanced"]
 	path = .vim/bundle/vim-diff-enhanced
 	url = https://github.com/chrisbra/vim-diff-enhanced.git
+[submodule ".vim/bundle/incsearch"]
+	path = .vim/bundle/incsearch
+	url = https://github.com/haya14busa/incsearch.vim.git

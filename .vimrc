@@ -233,6 +233,13 @@ let g:EasyMotion_leader_key = '<Leader>'
 
 let NERDTreeShowHidden=1
 
+"*********
+"IncSearch
+"*********
+map /  <Plug>(incsearch-forward)
+map ?  <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
+
 "*************
 "NeoComplCache
 "*************
