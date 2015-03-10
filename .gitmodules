@@ -136,3 +136,6 @@
 [submodule ".vim/bundle/incsearch"]
 	path = .vim/bundle/incsearch
 	url = https://github.com/haya14busa/incsearch.vim.git
+[submodule ".vim/bundle/image"]
+	path = .vim/bundle/image
+	url = https://github.com/ashisha/image.vim.git
