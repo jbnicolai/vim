@@ -200,6 +200,7 @@ let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute " ,"trimming em
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_show_hidden = 1
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|bower_components|target|dist|tmp)|(\.(swp|ico|git|svn|tmp))$'
 
 "*****
 "Gundo
