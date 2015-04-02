@@ -36,6 +36,9 @@ autocmd BufRead COMMIT_EDITMSG setlocal spell!
 "detect filetype for .bowerrc
 au BufNewFile,BufRead .bowerrc set filetype=json
 
+"detect filetype for .jshintrc
+au BufNewFile,BufRead .jshintrc set filetype=json
+
 "********
 "Settings
 "********
