@@ -33,7 +33,7 @@ au InsertLeave * set nopaste
 "spellcheck git commit messages.
 autocmd BufRead COMMIT_EDITMSG setlocal spell!
 
-"detect filetype for bower.json
+"detect filetype for .bowerrc
 au BufNewFile,BufRead .bowerrc set filetype=json
 
 "********
