@@ -71,83 +71,83 @@
   url = https://github.com/jbnicolai/vim-fitnesse.git
   branch = master
 [submodule ".vim/bundle/speeddating"]
-	path = .vim/bundle/speeddating
-	url = https://github.com/tpope/vim-speeddating.git
+  path = .vim/bundle/speeddating
+  url = https://github.com/tpope/vim-speeddating.git
 [submodule ".vim/bundle/vim-json"]
-	path = .vim/bundle/vim-json
-	url = https://github.com/elzr/vim-json.git
+  path = .vim/bundle/vim-json
+  url = https://github.com/elzr/vim-json.git
 [submodule ".vim/bundle/rainbow-parentheses"]
-	path = .vim/bundle/rainbow-parentheses
-	url = https://github.com/jbnicolai/rainbow_parentheses.vim
+  path = .vim/bundle/rainbow-parentheses
+  url = https://github.com/jbnicolai/rainbow_parentheses.vim
 [submodule ".vim/bundle/matchit"]
-	path = .vim/bundle/matchit
-	url = https://github.com/edsono/vim-matchit
+  path = .vim/bundle/matchit
+  url = https://github.com/edsono/vim-matchit
 [submodule ".vim/bundle/less"]
-	path = .vim/bundle/less
-	url = https://github.com/groenewege/vim-less.git
+  path = .vim/bundle/less
+  url = https://github.com/groenewege/vim-less.git
 [submodule ".vim/bundle/ruby"]
-	path = .vim/bundle/ruby
-	url = https://github.com/vim-ruby/vim-ruby.git
+  path = .vim/bundle/ruby
+  url = https://github.com/vim-ruby/vim-ruby.git
 [submodule ".vim/bundle/j"]
-	path = .vim/bundle/j
-	url = https://github.com/guersam/vim-j.git
+  path = .vim/bundle/j
+  url = https://github.com/guersam/vim-j.git
 [submodule ".vim/bundle/go"]
-	path = .vim/bundle/go
-	url = https://github.com/jbnicolai/vim-go.git
+  path = .vim/bundle/go
+  url = https://github.com/jbnicolai/vim-go.git
 [submodule ".vim/bundle/syntastic-more"]
-	path = .vim/bundle/syntastic-more
-	url = https://github.com/roktas/syntastic-more.git
+  path = .vim/bundle/syntastic-more
+  url = https://github.com/roktas/syntastic-more.git
 [submodule ".vim/bundle/node"]
-	path = .vim/bundle/node
-	url = https://github.com/mmalecki/vim-node.js.git
+  path = .vim/bundle/node
+  url = https://github.com/mmalecki/vim-node.js.git
 [submodule ".vim/bundle/airline"]
-	path = .vim/bundle/airline
-	url = git@github.com:bling/vim-airline.git
+  path = .vim/bundle/airline
+  url = git@github.com:bling/vim-airline.git
 [submodule ".vim/bundle/editorconfig"]
-	path = .vim/bundle/editorconfig
-	url = https://github.com/editorconfig/editorconfig-vim
+  path = .vim/bundle/editorconfig
+  url = https://github.com/editorconfig/editorconfig-vim
 [submodule ".vim/bundle/vim-node"]
-	path = .vim/bundle/vim-node
-	url = git@github.com:moll/vim-node.git
+  path = .vim/bundle/vim-node
+  url = git@github.com:moll/vim-node.git
 [submodule ".vim/bundle/tabular"]
-	path = .vim/bundle/tabular
-	url = git@github.com:godlygeek/tabular.git
+  path = .vim/bundle/tabular
+  url = git@github.com:godlygeek/tabular.git
 [submodule ".vim/bundle/javascript"]
-	path = .vim/bundle/javascript
-	url = git@github.com:jelera/vim-javascript-syntax.git
+  path = .vim/bundle/javascript
+  url = git@github.com:jelera/vim-javascript-syntax.git
 [submodule ".vim/bundle/snipmate"]
-	path = .vim/bundle/snipmate
-	url = git@github.com:garbas/vim-snipmate.git
+  path = .vim/bundle/snipmate
+  url = git@github.com:garbas/vim-snipmate.git
 [submodule ".vim/bundle/snipmate-nodejs"]
-	path = .vim/bundle/snipmate-nodejs
-	url = git@github.com:jamescarr/snipmate-nodejs.git
+  path = .vim/bundle/snipmate-nodejs
+  url = git@github.com:jamescarr/snipmate-nodejs.git
 [submodule ".vim/bundle/tlib"]
-	path = .vim/bundle/tlib
-	url = git@github.com:tomtom/tlib_vim.git
+  path = .vim/bundle/tlib
+  url = git@github.com:tomtom/tlib_vim.git
 [submodule ".vim/bundle/nodejs-complete"]
-	path = .vim/bundle/nodejs-complete
-	url = git@github.com:myhere/vim-nodejs-complete.git
+  path = .vim/bundle/nodejs-complete
+  url = git@github.com:myhere/vim-nodejs-complete.git
 [submodule ".vim/bundle/elixir"]
-	path = .vim/bundle/elixir
-	url = https://github.com/elixir-lang/vim-elixir
+  path = .vim/bundle/elixir
+  url = https://github.com/elixir-lang/vim-elixir
 [submodule ".vim/bundle/vim-diff-enhanced"]
-	path = .vim/bundle/vim-diff-enhanced
-	url = https://github.com/chrisbra/vim-diff-enhanced.git
+  path = .vim/bundle/vim-diff-enhanced
+  url = https://github.com/chrisbra/vim-diff-enhanced.git
 [submodule ".vim/bundle/incsearch"]
-	path = .vim/bundle/incsearch
-	url = https://github.com/haya14busa/incsearch.vim.git
+  path = .vim/bundle/incsearch
+  url = https://github.com/haya14busa/incsearch.vim.git
 [submodule ".vim/bundle/image"]
-	path = .vim/bundle/image
-	url = https://github.com/ashisha/image.vim.git
+  path = .vim/bundle/image
+  url = https://github.com/ashisha/image.vim.git
 [submodule ".vim/bundle/emmet"]
-	path = .vim/bundle/emmet
-	url = https://github.com/mattn/emmet-vim.git
+  path = .vim/bundle/emmet
+  url = https://github.com/mattn/emmet-vim.git
 [submodule ".vim/bundle/gitignore"]
-	path = .vim/bundle/gitignore
-	url = https://github.com/rdolgushin/gitignore.vim.git
+  path = .vim/bundle/gitignore
+  url = https://github.com/rdolgushin/gitignore.vim.git
 [submodule ".vim/bundle/gradle"]
-	path = .vim/bundle/gradle
-	url = https://github.com/tfnico/vim-gradle.git
+  path = .vim/bundle/gradle
+  url = https://github.com/tfnico/vim-gradle.git
 [submodule ".vim/bundle/unimpaired"]
-	path = .vim/bundle/unimpaired
-	url = https://github.com/tpope/vim-unimpaired.git
+  path = .vim/bundle/unimpaired
+  url = https://github.com/tpope/vim-unimpaired.git
