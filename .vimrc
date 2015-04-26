@@ -164,7 +164,7 @@ nnoremap <silent> k gk
 nnoremap <space> za
 
 "set enter to write
-nmap <silent> <CR> :NERDTreeToggle<CR>
+nmap <silent> <leader><CR> :NERDTreeToggle<CR>
 
 "easier split window navigation
 noremap <C-h> <C-w>h
