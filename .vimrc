@@ -182,6 +182,9 @@ nnoremap <silent><Leader>/ :nohls<cr>
 " Have <esc> leave cmdline-window
 autocmd CmdwinEnter * nnoremap <buffer> <esc> :q<cr>
 
+" Create a new file if the filename under cursor does not exist
+nnoremap <leader>gf :e <cfile><cr>
+
 "*******
 "Bundles
 "*******
