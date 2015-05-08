@@ -78,6 +78,8 @@ set shiftwidth=2            "number of spaces used for indentation
 set tabstop=2               "number of spaces the tab character uses
 set softtabstop=2           "number of spaces the tab character looks like
 
+set autoread
+
 if version > 700
     set spl=en spell        "set spell to english
     set nospell             "but turn it off by default
@@ -171,10 +173,6 @@ noremap <C-h> <C-w>h
 noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
-nnoremap <up> <C-w>k
-nnoremap <down> <C-w>j
-nnoremap <left> <C-w>h
-nnoremap <right> <C-w>l
 
 "toggle search highlight
 nnoremap <silent><Leader>/ :nohls<cr>
