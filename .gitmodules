@@ -163,3 +163,6 @@
 [submodule ".vim/bundle/vim-obsession"]
 	path = .vim/bundle/vim-obsession
 	url = https://github.com/tpope/vim-obsession
+[submodule ".vim/bundle/AnsiEsc"]
+	path = .vim/bundle/AnsiEsc
+	url = https://github.com/jbnicolai/vim-AnsiEsc
