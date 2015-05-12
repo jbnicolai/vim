@@ -163,6 +163,3 @@
 [submodule ".vim/bundle/vim-obsession"]
 	path = .vim/bundle/vim-obsession
 	url = https://github.com/tpope/vim-obsession
-[submodule ".vim/bundle/tmux-complete.vim"]
-	path = .vim/bundle/tmux-complete.vim
-	url = https://github.com/wellle/tmux-complete.vim
