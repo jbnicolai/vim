@@ -2,9 +2,6 @@
 "Autocommands
 "************
 
-"cd into current directory
-au BufEnter * execute "chdir ".escape(expand("%:p:h"), ' ')
-
 "enable cl on active window
 au WinEnter,FocusGained * set cursorline
 
@@ -52,6 +49,8 @@ endif
 colorscheme inkpot
 
 set nocompatible
+
+set autochdir
 
 "don't clutter with .swp's
 set directory=/tmp
