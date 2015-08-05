@@ -169,3 +169,6 @@
 [submodule ".vim/bundle/vim-eunuch"]
 	path = .vim/bundle/vim-eunuch
 	url = https://github.com/tpope/vim-eunuch
+[submodule ".vim/bundle/vim-js-arrow-function"]
+	path = .vim/bundle/vim-js-arrow-function
+	url = https://github.com/mvolkmann/vim-js-arrow-function
