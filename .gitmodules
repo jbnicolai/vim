@@ -172,3 +172,6 @@
 [submodule ".vim/bundle/vim-js-arrow-function"]
 	path = .vim/bundle/vim-js-arrow-function
 	url = https://github.com/mvolkmann/vim-js-arrow-function
+[submodule ".vim/bundle/vim-cucumber"]
+	path = .vim/bundle/vim-cucumber
+	url = https://github.com/jbnicolai/vim-cucumber
