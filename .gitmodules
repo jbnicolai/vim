@@ -175,3 +175,6 @@
 [submodule ".vim/bundle/vim-cucumber"]
 	path = .vim/bundle/vim-cucumber
 	url = https://github.com/jbnicolai/vim-cucumber
+[submodule ".vim/bundle/vim-browsereload-mac"]
+	path = .vim/bundle/vim-browsereload-mac
+	url = https://github.com/tell-k/vim-browsereload-mac
