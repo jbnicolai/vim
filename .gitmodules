@@ -178,3 +178,6 @@
 [submodule ".vim/bundle/vim-browsereload-mac"]
 	path = .vim/bundle/vim-browsereload-mac
 	url = https://github.com/tell-k/vim-browsereload-mac
+[submodule ".vim/bundle/vim-vinegar"]
+	path = .vim/bundle/vim-vinegar
+	url = https://github.com/tpope/vim-vinegar
